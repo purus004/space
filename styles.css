@@ -1,0 +1,126 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fffaf0;
+    color: #4b2e83;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(to right, #ff7eb9, #ff758c, #fcb045);
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ff7eb9;
+    border-bottom: 2px solid #d66d75;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    background: #ffefef;
+    color: #ff6f91;
+    border-radius: 5px;
+}
+
+/* Search Bar Styling */
+.search-container {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.search-container input[type="text"] {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #ff758c;
+    border-radius: 5px;
+    background-color: #fffef5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #ff6f91;
+}
+
+/* Section Styling */
+main section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    border: 2px solid #ff7eb9;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #fff5f9, #ffe7f3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main section h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    color: #ff6f91;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+main section p {
+    font-size: 1.1rem;
+    color: #4b2e83;
+}
+
+.featured-image, .content-image {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 8px;
+    border: 3px solid #ff758c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(to right, #d66d75, #ff758c);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    border-top: 2px solid #ff6f91;
+}
+
+/* Highlight Search Matches (Optional CSS for JavaScript feature) */
+.hidden {
+    display: none;
+}
